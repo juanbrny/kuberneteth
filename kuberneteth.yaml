@@ -51,7 +51,8 @@ keystore:
 # generic geth related options
 geth:
   # you can find suitable tags in https://hub.docker.com/r/ethereum/client-go/tags/
-  version: stable
+  version: v1.7.2
+  #version: stable
   # network id (1 is mainnet)
   networkId: 1101
   # hex value of initial difficulty defined in the genesis block
